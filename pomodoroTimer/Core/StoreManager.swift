@@ -10,8 +10,8 @@ final class StoreManager {
     private(set) var purchaseInProgress: Bool = false
 
     private let productIds = [
-        "com.sergepomodoro.premium.monthly",
-        "com.sergepomodoro.premium.yearly"
+        "com.focio.premium.monthly",
+        "com.focio.premium.yearly"
     ]
 
     init() {
