@@ -8,9 +8,7 @@ workflows:
     environment:
       ios_signing:
         distribution_type: app_store
-        bundle_identifier:
-          - com.focio.pomodoro
-          - com.focio.pomodoro.pomodoroWidgets
+        bundle_identifier: com.focio.pomodoro
       vars:
         XCODE_PROJECT: "pomodoroTimer.xcodeproj"
         XCODE_SCHEME: "pomodoroTimer"
