@@ -7,10 +7,8 @@ workflows:
       app_store_connect: Codemagic
     environment:
       ios_signing:
-        - distribution_type: app_store
-          bundle_identifier: com.focio.pomodoro
-        - distribution_type: app_store
-          bundle_identifier: com.focio.pomodoro.pomodoroWidgets
+        distribution_type: app_store
+        bundle_identifier: com.focio.pomodoro
       vars:
         XCODE_PROJECT: "pomodoroTimer.xcodeproj"
         XCODE_SCHEME: "pomodoroTimer"
