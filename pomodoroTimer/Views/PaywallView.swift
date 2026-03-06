@@ -118,13 +118,13 @@ struct PaywallView: View {
 
                     Text("·").foregroundStyle(.white.opacity(0.3))
 
-                    Button("Terms") {}
+                    Link("Terms", destination: URL(string: "https://stasfolt44-star.github.io/focio-site/terms.html")!)
                         .font(.caption)
                         .foregroundStyle(.white.opacity(0.4))
 
                     Text("·").foregroundStyle(.white.opacity(0.3))
 
-                    Button("Privacy") {}
+                    Link("Privacy", destination: URL(string: "https://stasfolt44-star.github.io/focio-site/privacy.html")!)
                         .font(.caption)
                         .foregroundStyle(.white.opacity(0.4))
                 }
