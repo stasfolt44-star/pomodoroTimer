@@ -1,10 +1,30 @@
 # Xcode user data
 xcuserdata/
 *.xcuserdatad/
+*.xcworkspace/xcuserdata/
 
 # Build
 build/
 DerivedData/
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Swift Package Manager
+.build/
+.swiftpm/
+Package.resolved
+
+# CocoaPods (if ever used)
+Pods/
 
 # macOS
 .DS_Store
+*.swp
+*~
+
+# Secrets & credentials
+*.p8
+*.p12
+*.mobileprovision
+*.provisionprofile
